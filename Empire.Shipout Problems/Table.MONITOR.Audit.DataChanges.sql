@@ -14,7 +14,7 @@ go
 
 
 /*
-Create Table.FxPLM.Audit.DataChanges.sql
+Create Table.MONITOR.Audit.DataChanges.sql
 */
 
 use MONITOR

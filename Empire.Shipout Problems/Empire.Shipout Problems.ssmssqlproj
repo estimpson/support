@@ -37,11 +37,17 @@
           <AssociatedConnUserName>estimpson</AssociatedConnUserName>
           <FullPath>Script.Update shipper when shipout partially fails.sql</FullPath>
         </FileNode>
-        <FileNode Name="Table.FxPLM.Audit.DataChanges.sql">
+        <FileNode Name="Script.View history of shipper detail changes.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:eeisql1:False:estimpson</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>eeisql1</AssociatedConnSrvName>
           <AssociatedConnUserName>estimpson</AssociatedConnUserName>
-          <FullPath>Table.FxPLM.Audit.DataChanges.sql</FullPath>
+          <FullPath>Script.View history of shipper detail changes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table.MONITOR.Audit.DataChanges.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:eeisql1:False:estimpson</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>eeisql1</AssociatedConnSrvName>
+          <AssociatedConnUserName>estimpson</AssociatedConnUserName>
+          <FullPath>Table.MONITOR.Audit.DataChanges.sql</FullPath>
         </FileNode>
         <FileNode Name="Trigger.dbo.shipper_AuditChangeTracking.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:eeisql1:False:estimpson</AssociatedConnectionMoniker>
