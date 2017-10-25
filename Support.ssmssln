@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# SQL Server Management Studio Solution File, Format Version 11.00
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire", "Empire\Empire.ssmssqlproj", "{CE833DDD-32AA-4AE0-916D-16859DE79EA7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Shipout Problems", "Empire.Shipout Problems\Empire.Shipout Problems.ssmssqlproj", "{DE5B88BC-370A-483A-AAA6-4F1C0164C41B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Inventory Problems", "Empire.Inventory Problems\Empire.Inventory Problems.ssmssqlproj", "{F39F2B29-4616-4832-978A-88F9DB4FC62A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Sales Forecast Problems", "Empire.Sales Forecast Problems\Empire.Sales Forecast Problems.ssmssqlproj", "{0FBE5EB0-23C0-49A2-B9A0-012B15BC9D49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE833DDD-32AA-4AE0-916D-16859DE79EA7}.Default|Default.ActiveCfg = Default
+		{DE5B88BC-370A-483A-AAA6-4F1C0164C41B}.Default|Default.ActiveCfg = Default
+		{F39F2B29-4616-4832-978A-88F9DB4FC62A}.Default|Default.ActiveCfg = Default
+		{0FBE5EB0-23C0-49A2-B9A0-012B15BC9D49}.Default|Default.ActiveCfg = Default
+		{04B269EC-8265-4F30-BAA7-8413D63FB34E}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
