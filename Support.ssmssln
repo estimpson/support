@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# SQL Server Management Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire", "Empire\Empire.ssmssqlproj", "{CE833DDD-32AA-4AE0-916D-16859DE79EA7}"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Shipout Problems", "Empire.Shipout Problems\Empire.Shipout Problems.ssmssqlproj", "{DE5B88BC-370A-483A-AAA6-4F1C0164C41B}"
@@ -8,6 +10,32 @@ EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Inventory Problems", "Empire.Inventory Problems\Empire.Inventory Problems.ssmssqlproj", "{F39F2B29-4616-4832-978A-88F9DB4FC62A}"
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Sales Forecast Problems", "Empire.Sales Forecast Problems\Empire.Sales Forecast Problems.ssmssqlproj", "{0FBE5EB0-23C0-49A2-B9A0-012B15BC9D49}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Subsidiary Cost", "Empire.Subsidiary Cost\Empire.Subsidiary Cost.ssmssqlproj", "{AD46567C-B7B7-4072-8A59-A68794E20385}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Shipping MultiRev", "Empire.Shipping MultiRev\Empire.Shipping MultiRev.ssmssqlproj", "{FE74215A-780A-4C69-B7E2-CCB581B958E9}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.CSM Maintenance", "Empire.CSM Maintenance\Empire.CSM Maintenance.ssmssqlproj", "{D9E9541C-2A51-4FA7-90DE-E48CA0BDDABC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Lighting Study Data", "Empire.Lighting Study Data\Empire.Lighting Study Data.ssmssqlproj", "{7162B23A-E9B6-44A3-8375-5CDC6C0B9BEB}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Sales Forecast Accuracy", "Empire.Sales Forecast Accuracy\Empire.Sales Forecast Accuracy.ssmssqlproj", "{88D33763-9788-4EF3-A618-FC0D652E6E20}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "21st.BOM Changes", "21st.BOM Changes\21st.BOM Changes.ssmssqlproj", "{A6FEE7DB-6E1D-4C67-9B87-53CB06AF07A7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.CSMVendorSpend", "Empire.CSMVendorSpend\Empire.CSMVendorSpend.ssmssqlproj", "{BFE38A1F-F362-4EBA-BA34-0899C0755B69}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Object Historical (Month End)", "Empire.Object Historical (Month End)\Empire.Object Historical (Month End).ssmssqlproj", "{C900E981-89E7-4872-9140-A6EBC1864717}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.PrintServer Invalid Labels", "Empire.PrintServer Invalid Labels\Empire.PrintServer Invalid Labels.ssmssqlproj", "{99533E04-DD18-4D62-8F60-20144040EB33}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.EDI.Test Order Distriubtion Respects Check PO Flag.sql", "Empire.EDI.Test Order Distriubtion Respects Check PO Flag.sql\Empire.EDI.Test Order Distriubtion Respects Check PO Flag.sql.ssmssqlproj", "{55C35BDD-E398-407C-84CC-280C6B7B023B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Empower", "Empire.Empower\Empire.Empower.ssmssqlproj", "{0F6BA77E-2C2A-4E00-8D5F-6EF5EFF76FD6}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.Friday30Recovery", "Empire.Friday30Recovery\Empire.Friday30Recovery.ssmssqlproj", "{CC067E16-7C31-41F3-A5B5-5E347D0D53E9}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Empire.RestoreHondurasRMA", "Empire.RestoreHondurasRMA\Empire.RestoreHondurasRMA.ssmssqlproj", "{0B32EC56-2732-4469-B26C-1B275A5828EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,7 +46,20 @@ Global
 		{DE5B88BC-370A-483A-AAA6-4F1C0164C41B}.Default|Default.ActiveCfg = Default
 		{F39F2B29-4616-4832-978A-88F9DB4FC62A}.Default|Default.ActiveCfg = Default
 		{0FBE5EB0-23C0-49A2-B9A0-012B15BC9D49}.Default|Default.ActiveCfg = Default
-		{04B269EC-8265-4F30-BAA7-8413D63FB34E}.Default|Default.ActiveCfg = Default
+		{AD46567C-B7B7-4072-8A59-A68794E20385}.Default|Default.ActiveCfg = Default
+		{FE74215A-780A-4C69-B7E2-CCB581B958E9}.Default|Default.ActiveCfg = Default
+		{D9E9541C-2A51-4FA7-90DE-E48CA0BDDABC}.Default|Default.ActiveCfg = Default
+		{7162B23A-E9B6-44A3-8375-5CDC6C0B9BEB}.Default|Default.ActiveCfg = Default
+		{88D33763-9788-4EF3-A618-FC0D652E6E20}.Default|Default.ActiveCfg = Default
+		{A6FEE7DB-6E1D-4C67-9B87-53CB06AF07A7}.Default|Default.ActiveCfg = Default
+		{BFE38A1F-F362-4EBA-BA34-0899C0755B69}.Default|Default.ActiveCfg = Default
+		{C900E981-89E7-4872-9140-A6EBC1864717}.Default|Default.ActiveCfg = Default
+		{99533E04-DD18-4D62-8F60-20144040EB33}.Default|Default.ActiveCfg = Default
+		{55C35BDD-E398-407C-84CC-280C6B7B023B}.Default|Default.ActiveCfg = Default
+		{0F6BA77E-2C2A-4E00-8D5F-6EF5EFF76FD6}.Default|Default.ActiveCfg = Default
+		{CC067E16-7C31-41F3-A5B5-5E347D0D53E9}.Default|Default.ActiveCfg = Default
+		{9CAF7FEC-0BF5-4F89-999D-99EA930AFF93}.Default|Default.ActiveCfg = Default
+		{0B32EC56-2732-4469-B26C-1B275A5828EE}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

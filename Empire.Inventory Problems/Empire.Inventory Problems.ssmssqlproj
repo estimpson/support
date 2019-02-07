@@ -37,6 +37,18 @@
           <AssociatedConnUserName>estimpson</AssociatedConnUserName>
           <FullPath>Script.Change part number of serial list.sql</FullPath>
         </FileNode>
+        <FileNode Name="Script.Create inventory for labelling after its shipped.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:eeisql1:False:estimpson</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>eeisql1</AssociatedConnSrvName>
+          <AssociatedConnUserName>estimpson</AssociatedConnUserName>
+          <FullPath>Script.Create inventory for labelling after its shipped.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Script.Create manual add and object for mystery inventory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:eeisql1:False:estimpson</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>eeisql1</AssociatedConnSrvName>
+          <AssociatedConnUserName>estimpson</AssociatedConnUserName>
+          <FullPath>Script.Create manual add and object for mystery inventory.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">

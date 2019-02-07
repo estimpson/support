@@ -33,7 +33,7 @@ select
 from
 	dbo.shipper_detail sd
 where
-	sd.shipper = 111805
+	sd.shipper = 116193
 
 begin transaction
 go
@@ -114,7 +114,7 @@ from
  			dbo.audit_trail at
 		where
  			at.type = 'S'
- 			and at.shipper in (111805)
+ 			and at.shipper in (116193)
 		group by
  			at.shipper
 		,	at.part
@@ -161,7 +161,7 @@ select
 from
 	dbo.shipper_detail sd
 where
-	sd.shipper = 111805
+	sd.shipper = 116193
 go
 
 --rollback

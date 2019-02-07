@@ -3,7 +3,7 @@ select
 from
 	dbo.shipper s
 where
-	s.id in (111808, 111805)
+	s.id in (116242 )
 
 select
 	*	
@@ -45,7 +45,7 @@ from
 				oh.order_no = sd.order_no
 		) oh
 where
-	shipper in (111808, 111805)
+	shipper in (116242 )
 go
 
 
@@ -96,7 +96,7 @@ from
 				oh.order_no = sd.order_no
 		) oh
 where
-	shipper in (111808, 111805)
+	shipper in (116242 )
 
 update
 	s
@@ -104,7 +104,7 @@ set	s.status = 'C'
 from
 	dbo.shipper s
 where
-	s.id in (111808, 111805)
+	s.id in (116242 )
 go
 
 rollback
